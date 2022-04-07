@@ -1,0 +1,200 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(189, 201, 245);
+}
+.navFlex {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+.navItem {
+    margin: 15px 25px;
+    font-size: 17px;
+}
+.inside {
+    display: inline;
+    margin: 27px;
+    font-family: 'Poppins', sans-serif;
+}
+.startNav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.dif {
+    margin: 5px;
+}
+#logoname {
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    padding-left: 20px;
+}
+img {
+    height: 60px;
+    width: 60px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+a:hover {
+    background-color: white;
+    color: black;
+}
+#searchField {
+    border-radius: 5px;
+    height: 25px;
+    width: 210px;
+    border: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+#heading {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainBody {
+    background-color: rgb(27, 37, 68);
+    width: 50%;
+    padding: 10px;
+}
+#addHead {
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+#addBtn {
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    width: 15%;
+    cursor: pointer;
+}
+#addBtn:hover {
+    background-color: rgb(223, 229, 235);
+}
+#addTitle {
+    display: block;
+    width: 99%;
+    border: none;
+    height: 25px;
+}
+#addText {
+    display: block;
+    width: 99%;
+    border: none;
+    resize: none;
+}
+.yourNotes {
+    display: flex;
+    justify-content: center;
+}
+#yourNotes {
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.container2Flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container2 {
+    height: 600px;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item {
+    background-color: rgb(27, 37, 68);
+    color: white;
+    width: 200px;
+    height: 170px;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+#cardTitle {
+    margin: 15px;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+}
+.cardText {
+    margin: 15px;
+    background-color: rgb(27, 37, 68);
+    font-size: 15px;
+    font-family: 'Catamaran', sans-serif;
+}
+.delBtn {
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+    margin:15px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+}
+.modalcontainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: opacity 0.3s ease;
+}
+.modalcontainer.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal{
+    background-color:rgb(221, 219, 219) ;
+    width: 360px;
+    height: 100px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0,0.3);
+    text-align: center;
+}
+#text{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+#close{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(212, 57, 57);
+    color: white;
+    width: 100px;
+    font-size: 15px;
+    padding:10px;
+}

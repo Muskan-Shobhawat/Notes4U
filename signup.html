@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="signupres.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navFlex">
+        <div id="logoname">NOTES4U</div>
+        <div id="logo"><img src="logo.png" alt="logo"></div>
+    </nav>
+    <form action="" class="formFlex" method="post">
+        <div class="title">Create Username</div>
+        <input type="text" id="user" class="fields" required>
+        <div class="title">Create Password </div>
+        <input type="password" id="pass" class="fields" required>
+        <div>
+            <input type="button" value="Sign Up" id="sign" class="btn">
+        </div>
+        <div id="login">
+            Already have an account?
+            <a href="index.html">Login now</a>
+        </div>
+    </form>
+    <div class="modalcontainer" id="modalcontainer">
+        <div class="modal">
+            <p id="text"></p>
+            <button id="close">Close</button>
+        </div>
+    </div>
+</body>
+<script src="signup.js"></script>
+</html>
